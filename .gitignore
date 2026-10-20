@@ -1,0 +1,14 @@
+# test build output
+test/build/
+# arduino-cli / IDE build output
+build/
+*.bin
+*.elf
+*.map
+# local secrets (if you move credentials out of the sketch)
+secrets.h
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
