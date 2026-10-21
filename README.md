@@ -154,7 +154,7 @@ Run the tests yourself (Linux, macOS or WSL, needs `g++` and `make`):
 ```bash
 make -C test          # build and run everything
 make -C test report   # also writes test/build/test-results.md
-test/mutation_check.sh
+bash test/mutation_check.sh
 ```
 
 ## Known limitations

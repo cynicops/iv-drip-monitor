@@ -14,7 +14,7 @@ jobs:
       - name: Build and run tests
         run: make -C test report
       - name: Mutation check (tests must catch injected bugs)
-        run: test/mutation_check.sh
+        run: bash test/mutation_check.sh
       - name: Publish results to the job summary
         if: always()
         run: |
